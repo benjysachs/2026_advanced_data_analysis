@@ -1,7 +1,4 @@
 # Analysis of 311 calls about homeless individuals
-
-This repository contains data, analytic code, and findings that support portions of the article, “[11 Calls About Homelessness Nearly Triple from Last April](tk.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
-
 ## Data
 
 This analysis uses one dataset.
