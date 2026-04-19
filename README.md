@@ -27,6 +27,23 @@ Using NYC Open Data’s database on 311 service requests from 2020 to the presen
 
 Using pandas, I grouped these calls by month and year and sorted the data chronologically. First, I looked at all the data from 2020 to the present.
 
+https://www.datawrapper.de/_/r5Sfj/
+
+#### Part 3: Analysis
+
+My initial observation was the seasonality of the call volume. Winter and spring are the lowest, then calls peak in the summer and decline through the fall. My hypothesis is that, in colder months, unhoused people are more likely to accept shelter or find a warmer place away from areas with a lot of people. Also, people are outside their houses in general more in warmer months so are more likely to see unhoused people.
+
+Another observation is the gradual decline in calls throughout Mayor Adams’ administration (highlighted in the chart below). He made a high-profile show about cracking down on visible homeless encampments. Complaint volume dropped dramatically in 2024 and early 2025. But it seemed to rebound in 2025 starting in the summertime.
+
+Zooming in to just the past two years (April 2024 through the present) shows us what has happened since Adams term ended and Mayor Mamdani’s term began at the start of 2026.
+
+https://www.datawrapper.de/_/1rMvB/?v=2
+
+Typically, call volumes are low in the first few months of the year. However, starting a few days into his administration, Mamdani ended the longstanding practice of sweeping homeless encampments. January 2026 saw 2,345 calls — a big jump from 507 calls in January 2025. 311 complaints fell in February, likely due to the extremely cold spell and winter storms. In mid-February, Mamdani reversed course and decided to resume sweeps.
+
+But still, once the extreme cold retreated, call volumes surged to 2,522 in March — up from 655 a year prior. It’s possible that homelessness grew more visible due to the pause on sweeps, which likely increased political pressure on Mamdani to “do something” about homelessness. It’s also possible that City employees helped drive the jump in calls, as they began clearing homeless encampments again, causing people to disperse from wherever they were staying.
+
+
 ## Outputs
 
 The notebooks output this spreadsheet which contains call volume by month from 2020 to April 2026: [`output/311_calls_by_month.csv`](output/311_calls_by_month.csv).
