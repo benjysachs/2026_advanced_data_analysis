@@ -36,7 +36,7 @@ The notebooks output this spreadsheet which contains call volume by month from 2
 You can run the analysis yourself. To do so, you'll need the following installed on your computer:
 
 - Python 3
-- The Python libraries specified in [`requirements.txt`](requirements.txt)
+- Pandas
 
 ## Licensing
 
